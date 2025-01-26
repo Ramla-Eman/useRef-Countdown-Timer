@@ -35,9 +35,9 @@ function App() {
 
   return (
     <>
-      <div className="w-[30%] bg-[#914CBE] rounded-lg p-4 mx-auto my-48 flex flex-col items-center justify-center space-y-6">
-        <h1 className="text-5xl font-bold text-[#0F0328]">Countdown: {time}s</h1>
-        <div className="space-x-4">
+      <div className="lg:w-[30%] sm:w-[60%] w-[97%] bg-[#914CBE] rounded-lg p-4 mx-auto my-48 flex flex-col items-center justify-center space-y-6">
+        <h1 className="sm:text-5xl text-4xl font-bold text-[#0F0328]">Countdown: {time}s</h1>
+        <div className="space-x-4 flex items-center justify-center flex-wrap sm:space-y-0 space-y-4">
           <button
             onClick={startTimer}
             className={`px-5 py-2 rounded-lg text-2xl ${
